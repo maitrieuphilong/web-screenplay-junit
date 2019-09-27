@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="vn.selenium.webteaching.features.story.RegisterNewUserStory" skipped="0" tests="1" time="17.33" timestamp="2019-09-27 09:30:21"><testcase classname="vn.selenium.webteaching.features.story.RegisterNewUserStory" name="Register new user with email address show message success"/></testsuite>

@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity Screenplay and JUnit</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="db018178fa96b0a26388c3496155b4ba2a8db215226a7a8157706f59373862d2.html">Register New User Story</a></span>
+                > <span class="truncate-60"><a
+                    href="58c8553fedc4080633db563ade6716633e60c96d0f1ea05826ea2764c08edfcb.html">Register new user with email address show message success </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2019 09:30</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register New User Story </span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register new user with email address show message success
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="4f3fa960a600499b29899d1ff2275469ee2f113082c54860aba801ebaa907348.png" title=" Open the application" width="2560"/>
+                <img src="4f3fa960a600499b29899d1ff2275469ee2f113082c54860aba801ebaa907348.png" title=" Peter opens the Google search page" width="2560"/>
+                <img src="4f3fa960a600499b29899d1ff2275469ee2f113082c54860aba801ebaa907348.png" title=" Open the application (completed)" width="2560"/>
+                <img src="70860871d6aeb3b4bc1faa31765f9085540f8d3447483dad866e889d98342f29.png" title=" Peter dang ky voi thong tin: abc abc@gmail.com P@ssword123 0923599999" width="2560"/>
+                <img src="70860871d6aeb3b4bc1faa31765f9085540f8d3447483dad866e889d98342f29.png" title=" Peter clicks on login button" width="2560"/>
+                <img src="f9a6a2b760196bb651e83fcd1329c7f05442c7731ab646256d099bcb0b2dac09.png" title=" Peter clicks on login button (completed)" width="2560"/>
+                <img src="f9a6a2b760196bb651e83fcd1329c7f05442c7731ab646256d099bcb0b2dac09.png" title=" Peter clicks on register button" width="2560"/>
+                <img src="e793b70a28ec55e6bd9e6ac5797ea50151a0872f85ee7d6fd52e173050075ad7.png" title=" Peter clicks on register button (completed)" width="2560"/>
+                <img src="e793b70a28ec55e6bd9e6ac5797ea50151a0872f85ee7d6fd52e173050075ad7.png" title=" Peter enters 'abc' into textbox to input name" width="2560"/>
+                <img src="0f71f87fc2c671170a97d684899c57c07483157b718cedd76b4a6b4355724e1b.png" title=" Peter enters 'abc' into textbox to input name (completed)" width="2560"/>
+                <img src="0f71f87fc2c671170a97d684899c57c07483157b718cedd76b4a6b4355724e1b.png" title=" Peter enters 'abc@gmail.com' into textbox to input email" width="2560"/>
+                <img src="cd207a343b17ef4baaf51dfdad4866eed510633d7ac947b9002827307b58a919.png" title=" Peter enters 'abc@gmail.com' into textbox to input email (completed)" width="2560"/>
+                <img src="cd207a343b17ef4baaf51dfdad4866eed510633d7ac947b9002827307b58a919.png" title=" Peter enters 'P@ssword123' into textbox to input password" width="2560"/>
+                <img src="647ba633711d3bc0f24bde6dc8b651c43c93f3fb17bb0e64c92fe3a243c79ad8.png" title=" Peter enters 'P@ssword123' into textbox to input password (completed)" width="2560"/>
+                <img src="647ba633711d3bc0f24bde6dc8b651c43c93f3fb17bb0e64c92fe3a243c79ad8.png" title=" Peter enters 'P@ssword123' into textbox to reinput password" width="2560"/>
+                <img src="b1ceca9f44df8d5728b296a1bac7f720695f31af256bd0e1f4dc6340b9d019c3.png" title=" Peter enters 'P@ssword123' into textbox to reinput password (completed)" width="2560"/>
+                <img src="b1ceca9f44df8d5728b296a1bac7f720695f31af256bd0e1f4dc6340b9d019c3.png" title=" Peter enters '0923599999' into textbox to input phone number" width="2560"/>
+                <img src="57ab95c406f3c728933b4db3fdde03af92c25c40aeb9fb36fc4aa5d2c85a175f.png" title=" Peter enters '0923599999' into textbox to input phone number (completed)" width="2560"/>
+                <img src="57ab95c406f3c728933b4db3fdde03af92c25c40aeb9fb36fc4aa5d2c85a175f.png" title=" Peter clicks on register button" width="2560"/>
+                <img src="e68f809a7db263c650ddaeca78a08702fecfa15789585e90fa25fe52b5d12167.png" title=" Peter clicks on register button (completed)" width="2560"/>
+                <img src="e68f809a7db263c650ddaeca78a08702fecfa15789585e90fa25fe52b5d12167.png" title=" Peter dang ky voi thong tin: abc abc@gmail.com P@ssword123 0923599999 (completed): <span class='success-color'>SUCCESS</span>" width="2560"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.70</span>
+</div>
+</body>
+</html>
